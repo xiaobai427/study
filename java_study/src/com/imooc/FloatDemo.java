@@ -1,18 +1,18 @@
 package com.imooc;
 
 public class FloatDemo {
-    public static void main(String[] args){
-        // å®šä¹‰ä¸€ä¸ªå•ç²¾åº¦æµ®ç‚¹å‹å˜é‡ï¼Œå­˜æ”¾1234.328
-        float f = 123.328f;  // éœ€è¦åœ¨åé¢åŠ f
-        System.out.println("f="+f);
-        // å®šä¹‰ä¸€ä¸ªåŒç²¾åº¦æµ®ç‚¹å‹å˜é‡ï¼Œå­˜æ”¾5623.456
-        double d = 5623.465;
-        System.out.println("d="+d);
-        // å­˜æ”¾æ•´å‹
-        double d1 = 123;  // è¡¨ç¤ºæ•°æ®èŒƒå›´æ˜¯æœ€å¤§çš„
-        System.out.println("d1="+d1);  // å°†æ•´å‹èµ‹å€¼ç»™æµ®ç‚¹å‹
-        // å˜é‡é—´çš„èµ‹å€¼
-        double d2 = d;
-        System.out.println("d2="+d2);
-    }
+	public static void main(String[] args){
+		//¶¨ÒåÒ»¸öµ¥¾«¶È¸¡µãĞÍ±äÁ¿£¬´æ·Å1234.328
+		float f=1234.328f;
+		System.out.println("f="+f);
+		//¶¨ÒåÒ»¸öË«¾«¶È¸¡µãĞÍ±äÁ¿£¬´æ·Å5623.465
+		double d=5623.464;
+		System.out.println("d="+d);
+		//½«ÕûĞÍ¸³Öµ¸ø¸¡µãĞÍ
+		double d1=123;
+		System.out.println("d1="+d1);
+		//±äÁ¿¼äµÄ¸³Öµ
+		double d2=d;
+		System.out.println("d2="+d2);
+	}
 }
