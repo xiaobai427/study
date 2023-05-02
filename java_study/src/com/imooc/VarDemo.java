@@ -15,7 +15,8 @@ public class VarDemo {
         System.out.print(x + "," + y);
         System.out.println("\n\'" + x + "\'");
         //定义一个汉字的字符
-        char ch = '慕';
+//        char ch = '慕';
+        char ch = 'x';
         System.out.println(ch);
         //char中文='中'; /不建议中文作为变量名
         //System.out.println(中文);
